@@ -1,0 +1,243 @@
+/* SECCION DE MENU/HEADER */
+.menu{
+    background: linear-gradient(45deg, black, transparent);
+    padding: 1px;
+    margin: -24px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+
+.menu__list__item .menu__texto{
+    font-weight: bold;
+    font-size: large;
+    color: gold;
+}
+
+.menu__list__item .menu__texto:hover{
+    color: mediumblue;
+}
+
+.menu__list{
+    display: flex;
+    margin: 0 0 0 14px;
+}
+
+.menu__imagen{
+    display: flex;
+    margin: 0 0 0 14px;
+}
+
+/* SECCION HERO */
+.title__div{
+    margin-top: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.title__network{
+    display: flex;
+}
+
+.title__profile{
+    border-radius: 30%;
+    height: 400px;
+}
+
+.referencia__redes{
+    color: black;
+}
+
+.referencia__redes:hover{
+    color: goldenrod;
+}
+
+/* SECCION SOBRE MI */
+.about{
+    background: powderblue;
+    padding: 1px;
+    margin: -24px;
+    margin-top: 50px;
+}
+.about__container{
+    margin: 20px 10px 25px 30px;
+    width: 70%;
+}
+
+.about__title{
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+/* SECCION DE SKILLS */
+.skills{
+    margin-top: 50px;
+}
+
+.skills__title{
+    font-size: 2rem;
+    font-weight: bold;
+    text-align: center;
+}
+
+.skills__line{
+    display: flex;
+    justify-content: center;
+    place-content: space-evenly;
+}
+
+.skills__box{
+    text-align: center;
+}
+
+/* SECCION DE HOBBIES */
+.hobbies{
+    margin-top: 50px;
+}
+
+.hobbies__title{
+    font-size: 2rem;
+    font-weight: bold;
+    text-align: center;
+}
+
+.hobbies__line{
+    display: flex;
+    justify-content: center;
+    place-content: space-evenly;
+}
+
+.hobbies__box{
+    text-align: center;
+}
+
+/*  SECCION DE FORMACION ACADEMICA */
+.academic{
+    background: powderblue;
+    padding: 1px;
+    margin: -24px;
+    margin-top: 50px;
+}
+
+.academic__title{
+    font-size: 2rem;
+    font-weight: bold;
+    text-align: center;
+}
+
+.academic__courses{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+/* SECCION DE EXPERIENCIA LABORAL / PROYECTOS */
+.experience{
+    margin-top: 50px;
+}
+
+.experience__section__title{
+    font-size: 2rem;
+    font-weight: bold;
+    text-align: center;
+}
+
+.experience__box{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.experience__info{
+    align-self: center;
+    text-align: left;
+}
+
+.experience__title{
+    font-size: 1rem;
+    font-weight: bold;
+    text-align: left;
+}
+
+.experiencia__botao--repo{
+    padding: 15px;
+    background-color: white;
+    color: blue;
+    border-color: blue;
+    border-radius: 4px;
+}
+
+.experiencia__botao--repo:hover{
+    background-color:deepskyblue;
+    border-color: deepskyblue;
+    color: white;
+}
+
+.experience__botao--demo{
+    padding: 15px;
+    background-color: blue;
+    color: white;
+    border-color: blue;
+    border-radius: 4px;
+}
+
+.experience__botao--demo:hover{
+    background-color:deepskyblue;
+    border-color: deepskyblue;
+}
+
+/* SECCION DE CONTACTO */
+.formcontato{
+    background: powderblue;
+    padding: 1px;
+    margin: -24px;
+    margin-top: 50px;
+    
+}
+
+.formcontato__contacto{
+    display: flex;
+}
+
+.formcontato__img{
+    height: 560px;
+}
+
+.formcontato__title{
+    font-size: 2rem;
+    font-weight: bold;
+    text-align: left;
+}
+
+.formcontato__form{
+    margin-top: 30px;
+}
+
+.formcontato__input{
+    height: 35px;
+    width: 700px;
+    margin-bottom: 30px;
+}
+
+.formcontato__botao{
+    margin-top: 20px;
+    padding: 15px;
+    background-color: blue;
+    color: white;
+    border-color: blue;
+    border-radius: 4px;
+}
+
+.formcontato__botao:hover{
+    background-color:deepskyblue;
+    border-color: deepskyblue;
+}
+
+/* SECCION DE FOOTER */
+.footer{
+    margin-top: 50px;
+    text-align: center;
+}
