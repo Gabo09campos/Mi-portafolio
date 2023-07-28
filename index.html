@@ -234,12 +234,21 @@
                     <h2 class="formcontato__title">Contacto</h2>
                     <h3 class="formcontato__subtext">¿Quieres contactarme?</h3>
                     <h3 class="formcontato__subtext">Complete el siguiente formulario y me pondré en contacto con usted lo antes posible. </h3>
-                    <form class="formcontato__form" name="form">
-                        <input class="formcontato__input" type="text" name="nombre" placeholder="Nombre">
-                        <input class="formcontato__input" type="email" name="email" placeholder="E-mail">
-                        <input class="formcontato__input" type="text" name="asunto" placeholder="Assunto">
-                        <textarea class="formcontato__textarea" rows="10" cols="93" id="mensagem" name="mensaje" placeholder="Mensaje"></textarea>
-                        <button type="submit" class="formcontato__botao">Enviar mensaje</button>
+                    <div id="error"></div>
+                    <form action="https://formsubmit.co/gabrielcamposramirez@outlook.com"   method="POST" class="formcontato__form" name="form" id="form">
+                        <div id="input__nombre" class="input">
+                            <input id="nombre" class="formcontato__input" type="text" name="nombre" placeholder="Nombre" maxlength="50" required>
+                        </div>
+                        <div id="input__email" class="input">
+                            <input id="email" class="formcontato__input" type="email" name="email" placeholder="E-mail" required>
+                        </div>
+                        <div id="input__asunto" class="input">
+                            <input id="asunto" class="formcontato__input" type="text" name="asunto" placeholder="Assunto" maxlength="50" required>
+                        </div>
+                        <div id="input__mensaje" class="input">
+                            <textarea class="formcontato__textarea" rows="10" cols="93" id="mensagem" name="mensaje" placeholder="Mensaje" maxlength="300" required></textarea>
+                        </div>
+                        <input type="submit" class="formcontato__botao" value="Enviar formulario">
                     </form>
                 </div>
             </div>
@@ -255,6 +264,6 @@
         </section>
     </div>
  <!-- Script del documento JavaScript -->
-<script src="validacion.js"></script>
+<script type="module" src="validacion.js"></script>
 </body>
 </html>
