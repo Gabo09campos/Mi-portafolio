@@ -1,8 +1,13 @@
+/* BODY */
+.body{
+    background: linear-gradient(45deg, blue, transparent);
+}
+
 /* SECCION DE MENU/HEADER */
 .menu{
-    background: linear-gradient(45deg, black, transparent);
-    padding: 1px;
-    margin: -24px;
+    /*background: linear-gradient(45deg, black, transparent); */
+    padding: 0px;
+    margin: 0px;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -12,11 +17,11 @@
 .menu__list__item .menu__texto{
     font-weight: bold;
     font-size: large;
-    color: gold;
+    color: mediumblue;
 }
 
 .menu__list__item .menu__texto:hover{
-    color: mediumblue;
+    color: gold;
 }
 
 .menu__list{
@@ -27,6 +32,11 @@
 .menu__imagen{
     display: flex;
     margin: 0 0 0 14px;
+}
+
+.navbar{
+    margin: 0px;
+    
 }
 
 /* SECCION HERO */
@@ -56,7 +66,7 @@
 
 /* SECCION SOBRE MI */
 .about{
-    background: powderblue;
+    /* background: powderblue; */
     padding: 1px;
     margin: -24px;
     margin-top: 50px;
@@ -115,7 +125,7 @@
 
 /*  SECCION DE FORMACION ACADEMICA */
 .academic{
-    background: powderblue;
+   /* background: powderblue; */
     padding: 1px;
     margin: -24px;
     margin-top: 50px;
@@ -191,7 +201,7 @@
 
 /* SECCION DE CONTACTO */
 .formcontato{
-    background: powderblue;
+   /* background: powderblue; */
     padding: 1px;
     margin: -24px;
     margin-top: 50px;
@@ -225,8 +235,8 @@
 .formcontato__botao{
     margin-top: 20px;
     padding: 15px;
-    background-color: blue;
-    color: white;
+    background-color: white;
+    color: blue;
     border-color: blue;
     border-radius: 4px;
 }
